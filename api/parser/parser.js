@@ -5,6 +5,7 @@ module.exports = async function (req, res) {
         const { url } = req.query;
 
         await Mercury.parse(url).then(result => {
+        		console.log(result)
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
             res.end(JSON.stringify(result));
