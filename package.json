@@ -4,6 +4,6 @@
   "description": "Parse a page and get back structured data",
   "private": false,
   "dependencies": {
-    "@postlight/mercury-parser": "https://github.com/dehlen/mercury-parser"
+    "@postlight/mercury-parser": "https://github.com/dehlen/mercury-parser.git"
   }
 }
