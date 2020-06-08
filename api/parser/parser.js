@@ -1,4 +1,4 @@
-import Mercury from '@postlight/mercury-parser';
+const Mercury = require('@postlight/mercury-parser');
 
 module.exports = async function (req, res) {
     try {
